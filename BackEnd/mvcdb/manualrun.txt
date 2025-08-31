@@ -1,0 +1,5 @@
+mongod --dbpath="F:\NodeJS\ProjectExplanation\venusevents\BackEnd\mvcdb\data"
+
+mongosh
+
+npm start
