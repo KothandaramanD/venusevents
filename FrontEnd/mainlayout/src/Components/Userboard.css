@@ -1,0 +1,94 @@
+.bg-set {
+  background-color: #0e7c61;
+}
+
+.sidebanner {
+  background-color: #d9eddb;
+}
+
+/* Sidebar Menu */
+.sidebar-item {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+  padding: 12px 16px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  color: black;
+  border-radius: 8px;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.sidebar-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.active-item {
+  font-weight: bold;
+  color: #d48d00;
+  background-color: rgba(255, 193, 7, 0.15);
+}
+
+/* Icon next to menu item */
+.iconsize {
+  font-size: 24px;
+  color: black;
+}
+
+/* Text inside sidebar item */
+.menufontsize {
+  font-size: 16px;
+  text-align: left;
+  color: black;
+  flex: 1;
+}
+
+.nofit {
+  width: 55vh;
+  margin: 20px;
+  margin-left: 50px;
+}
+
+.single-rounded-box {
+  border-radius: 40px;
+  padding: 20px;
+  min-height: 90px;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #0e7c61;
+  color: white;
+  text-align: center;
+  width: 100%; /* Make responsive */
+  max-width: 350px; /* Limit width on large screens */
+  margin: 0 auto;
+}
+
+
+@media (max-width: 768px) {
+  .single-rounded-box {
+    max-width: 100%;
+    margin-left: 0;
+  }
+}
+
+
+.adminlogoset img {
+  max-width: 100px;
+  height: auto;
+}
+
+/* For large screens, keep full height */
+@media (min-width: 768px) {
+  .userboard-sidebar {
+    min-height: 100vh;
+  }
+}
+
+/* For mobile view, remove min-height */
+@media (max-width: 767.98px) {
+  .userboard-sidebar {
+    min-height: auto !important;
+  }
+}

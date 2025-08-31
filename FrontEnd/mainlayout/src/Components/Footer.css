@@ -1,0 +1,62 @@
+.image-container1 {
+  display: flex;
+  justify-content: space-between; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: black;
+  color: white;
+  padding: 60px;
+  padding-top: 19px;
+  padding-bottom: 20px;
+  font-family: 'Poppins', 'Lato', sans-serif;
+}
+
+.followus, .aboutus, .f1 {
+  font-size: 120%; /* Increase font size by 20% */
+}
+.aboutus
+{
+  margin: 0%;
+  margin-left: 0px;
+  padding-left: 0px;
+}
+
+.caption11 {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Original spacing between icons */
+}
+
+.caption11 img {
+  width: 48px; /* Increase icon size by 20% (from 40px) */
+  height: 48px; /* Increase icon size by 20% (from 40px) */
+}
+
+.caption12 {
+  margin-top: 10px;
+  display: flex;
+  font-size: 120%; /* Ensure consistent font size */
+}
+
+.caption122 {
+  font-size: 110%; /* Ensure consistent font size for address and phone */
+  text-align: left;
+  margin-top: 5px;
+}
+
+.phone-number {
+  margin-top: 5px;
+  font-size: 120%; /* Ensure phone number has the same font size */
+}
+
+.caption121 img {
+  width: 48px; /* Increase size of location icon */
+  height: 48px;
+}
+
+@media (max-width: 768px) {
+  .image-container1 {
+    flex-direction: column;
+    padding: 20px;
+  }
+}

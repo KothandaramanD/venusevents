@@ -1,0 +1,10 @@
+/* Learnmore.css */
+.card img {
+    height: 220px;
+    object-fit: cover;
+  }
+  
+  .card {
+    border-radius: 15px;
+  }
+  
