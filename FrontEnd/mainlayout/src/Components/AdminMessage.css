@@ -1,0 +1,20 @@
+.event-request {
+    font-family: 'Poppins', 'Lato', sans-serif;
+  }
+  
+  .event-form {
+    width: 80%;
+  }
+  
+  .event-form .form-label {
+    font-family: 'Poppins', 'Lato', sans-serif;
+    font-weight: lighter;
+  }
+  
+  .action-buttons {
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  

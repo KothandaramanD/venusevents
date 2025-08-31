@@ -1,0 +1,22 @@
+.image-slide {
+    margin: 0 10px; /* Space between images */
+    position: relative;
+    overflow: hidden; /* Prevent any overflow */
+}
+
+.caption {
+    background-color: rgba(24, 23, 23, 0.5); /* Semi-transparent background */
+    padding: 10px; /* Padding for better aesthetics */
+    color: white; /* Set text color */
+    text-align: center; /* Center align text */
+    width: 100%; /* Full width */
+    position: absolute; /* Keep the caption within the image */
+    bottom: 0; /* Stick to the bottom */
+    left: 0; /* Align to the left */
+    box-sizing: border-box; /* Include padding in width calculations */
+}
+.custom-font
+{
+    font-size: 24px;
+    text-align: center;
+}

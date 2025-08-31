@@ -1,0 +1,15 @@
+*
+{
+  margin: auto;
+  font-family: 'Poppins', 'Lato', sans-serif;
+}
+.header1
+{
+  background-color: #ed145b;
+  color: white;
+  position: fixed;
+  z-index: 1030;
+  margin-bottom: 30px;
+  top: 0;
+  left: 0;
+}

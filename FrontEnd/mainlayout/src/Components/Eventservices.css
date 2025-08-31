@@ -1,0 +1,35 @@
+.custom-container {
+  background-color: white;
+  border: 1px solid #e3e3e3;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  margin: auto;
+  width: 80%;
+}
+
+.custom-select {
+  appearance: none;
+  background-color: #f8f9fa;
+  border: 1px solid #ced4da;
+  padding: 8px 12px;
+  border-radius: 4px;
+  transition: border-color 0.2s;
+}
+
+.custom-select:focus {
+  border-color: #86b7fe;
+  outline: none;
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.25);
+}
+
+.space1 {
+  margin-right: 10px;
+}
+
+.event-form .form-label {
+  font-family: 'Poppins', 'Lato', sans-serif;
+  font-weight: lighter;
+}
+.members-input
+{
+  max-width: 80px;
+}

@@ -1,0 +1,33 @@
+*
+{
+    font-family: 'Poppins', 'Lato', sans-serif;
+}
+.contact-request
+{
+    font-family: 'Poppins', 'Lato', sans-serif;
+}
+.action-buttons 
+{
+    display: flex;
+    gap: 12px; /* Adjust as needed */
+    flex-wrap: wrap;
+}
+.contact-form
+{
+    width: 70%;
+}
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Lato&display=swap');
+
+.custom-label {
+  font-family: 'Poppins', 'Lato', sans-serif;
+  font-weight: lighter;
+}
+.col-form-label.custom-label {
+    font-family: 'Poppins', 'Lato', sans-serif;
+}
+.contact-request .container
+{
+    margin-top: -10px;
+    top: -10;
+}
+  
